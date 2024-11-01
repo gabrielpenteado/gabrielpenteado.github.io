@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=008000&up_message=online&url=https%3A%2F%2Fgabrielpenteado.github.io" alt="website status">
 </div>
 
-## About the project
-
 <h3 align="center">
  A personal webpage where I display all my projects and the technologies and tools I've used.
 </h3>
@@ -44,20 +42,20 @@
 </div>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gabrielpenteado.github.io/main/public/portfolio.png"> 
+    <img src="https://raw.githubusercontent.com/gabrielpenteado/portfolio/main/public/portfolio.png"> 
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <table>
     <thead>
       <tr>
         <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado.github.io/main/public/screenshot.jpg">Screenshot</a>
-        </th> 
+          <a href="https://raw.githubusercontent.com/gabrielpenteado/portfolio/main/public/screenshot.jpg">Screenshot</a>
+        </th>
       </tr>
     </thead>
   </table>
-</div>
+</div> -->
 
 ### Built with
 
