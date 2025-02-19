@@ -38,7 +38,6 @@ export const cards: CardData[] = [
       { name: "react" },
       { name: "typeScript" },
       { name: "tailwindCSS" },
-      { name: "node" },
     ],
     codeLink: "https://github.com/gabrielpenteado/dentalprocs",
     videoLink: "https://www.youtube.com/watch?v=0X3PRdZceBo",
@@ -108,7 +107,12 @@ export const cards: CardData[] = [
     title: "Oh My Donuts",
     description:
       "A Vue and Vuex-based app for easily placing and managing donuts orders.",
-    techStack: [{ name: "vue" }, { name: "sass" }],
+    techStack: [
+      { name: "vue" },
+      { name: "vuex" },
+      { name: "sass" },
+      { name: "postgreSQL" },
+    ],
     codeLink: "https://github.com/gabrielpenteado/oh-my-donuts",
     videoLink: "https://www.youtube.com/watch?v=1vZzvyr_ZsU",
   },
@@ -331,7 +335,7 @@ export const cards: CardData[] = [
     image: "",
     title: "Page Oh My Donuts",
     description: "The landing page of the Oh My Donuts app.",
-    techStack: [{ name: "vue" }, { name: "sass" }, { name: "postgreSQL" }],
+    techStack: [{ name: "vue" }, { name: "tailwindCSS" }],
     codeLink: "https://github.com/gabrielpenteado/page-ohmydonuts",
   },
   {
@@ -359,6 +363,24 @@ export const cards: CardData[] = [
     ],
     codeLink:
       "https://github.com/gabrielpenteado/action-deploy-cloudflare-with-preview-url",
+  },
+  {
+    id: 29,
+    image: "",
+    title: "Clone All Repositories",
+    description:
+      "A simple application to download all public repositories from a specific GitHub user as a single ZIP file.",
+    techStack: [{ name: "react" }, { name: "vite" }, { name: "jsZip" }],
+    codeLink: "https://github.com/gabrielpenteado/clone-all-repos",
+  },
+  {
+    id: 30,
+    image: "",
+    title: "Clone All Repos Server",
+    description:
+      "A backend service that clones public GitHub repositories, zips them, and sends to the frontend.",
+    techStack: [{ name: "node" }, { name: "express" }, { name: "framer" }],
+    codeLink: "https://github.com/gabrielpenteado/clone-all-repos",
   },
   // Adicione mais cards aqui
 ];
