@@ -108,7 +108,12 @@ export const cards: CardData[] = [
     title: "Oh My Donuts",
     description:
       "A Vue and Vuex-based app for easily placing and managing donuts orders.",
-    techStack: [{ name: "vue" }, { name: "sass" }],
+    techStack: [
+      { name: "vue" },
+      { name: "vuex" },
+      { name: "sass" },
+      { name: "postgreSQL" },
+    ],
     codeLink: "https://github.com/gabrielpenteado/oh-my-donuts",
     videoLink: "https://www.youtube.com/watch?v=1vZzvyr_ZsU",
   },
@@ -331,7 +336,7 @@ export const cards: CardData[] = [
     image: "",
     title: "Page Oh My Donuts",
     description: "The landing page of the Oh My Donuts app.",
-    techStack: [{ name: "vue" }, { name: "sass" }, { name: "postgreSQL" }],
+    techStack: [{ name: "vue" }, { name: "tailwindCSS" }],
     codeLink: "https://github.com/gabrielpenteado/page-ohmydonuts",
   },
   {
